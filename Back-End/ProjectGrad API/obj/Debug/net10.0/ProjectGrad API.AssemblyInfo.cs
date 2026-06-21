@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProjectGrad API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8d5d78ac84cf99071d0e9cf9310818f15061e5e6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b9181ac78d60f6de731c5e854a5737b266bfe955")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProjectGrad API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProjectGrad API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

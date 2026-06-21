@@ -33,7 +33,7 @@ export function createScene(mountRef) {
   renderer.domElement.style.display = "block";
 
   if ("outputEncoding" in renderer) {
-    renderer.outputEncoding = THREE.sRGBEncoding;
+    renderer.outputColorSpace = THREE.SRGBColorSpace;
   } else if (renderer.outputColorSpace !== undefined) {
     renderer.outputColorSpace =
       THREE.SRGBColorSpace;

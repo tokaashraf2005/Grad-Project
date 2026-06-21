@@ -2,6 +2,7 @@ export function startAnimationLoop({
   rafRef,
   renderer,
   composer,
+  scene,
   camera,
   controls,
   keysRef,
@@ -76,7 +77,7 @@ export function startAnimationLoop({
       setElapsedTime
     });
 
-    composer.render();
+    renderer.render(scene, camera);
 
     if (gameModeRef.current) {
       assessmentLogic({

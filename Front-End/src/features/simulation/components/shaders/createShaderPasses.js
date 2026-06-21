@@ -30,10 +30,10 @@ export function createShaderPasses({
 
     try {
       if (composer.renderTarget1 && composer.renderTarget1.texture) {
-        composer.renderTarget1.texture.encoding = THREE.LinearEncoding;
+        composer.renderTarget1.texture.encoding = THREE.LinearSRGBColorSpace;
       }
       if (composer.renderTarget2 && composer.renderTarget2.texture) {
-        composer.renderTarget2.texture.encoding = THREE.LinearEncoding;
+        composer.renderTarget2.texture.encoding = THREE.LinearSRGBColorSpace;
       }
     } catch (e) {
     }
