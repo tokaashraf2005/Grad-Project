@@ -1,6 +1,6 @@
 // Centralized API configuration
 // Change this URL to match your .NET API launch profile
-const API_BASE_URL = import.meta.env.VITE_API_URL + '/api';
+const API_BASE_URL = `${import.meta.env.VITE_API_URL}/api`;
 export const GOOGLE_CLIENT_ID = '625366091871-s796q2uj31hcs58s1490s89n6r2484jb.apps.googleusercontent.com';
 
 /**
